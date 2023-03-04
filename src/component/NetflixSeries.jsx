@@ -1,22 +1,21 @@
 import React from "react";
-import { Card } from "./Card";
+import Amozen from "./Amozen";
+import Netflix from "./Netflix";
 import "./NetflixSeries.css";
-import Sdata from "./Sdata";
 
+let Favorit = () => {
+  let series = "netflix";
+  if (series === "netflix") {
+    return <Netflix />;
+  } else {
+    return <Amozen />;
+  }
+};
 function NetflixSeries(props) {
   return (
     <>
       <div className="card-holder">
-        {Sdata.map((val) => {
-          return (
-            <Card
-              key={val.id}
-              src={val.imgSrc}
-              title={val.title}
-              description={val.description}
-            />
-          );
-        })}
+        <Favorit />
       </div>
     </>
   );
