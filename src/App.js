@@ -1,10 +1,11 @@
 import './App.css';
-import Home from './component/Home';
+import NetflixSeries from './component/NetflixSeries';
+
 
 function App() {
   return (
     <>
-      <Home/>
+      <NetflixSeries/>
     </>
   );
 }
