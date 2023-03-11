@@ -1,11 +1,10 @@
-import './App.css';
-import NetflixSeries from './component/NetflixSeries';
-
+import "./App.css";
+import SlotMAchine from "./component/SlotMachine";
 
 function App() {
   return (
     <>
-      <NetflixSeries/>
+      <SlotMAchine />
     </>
   );
 }
