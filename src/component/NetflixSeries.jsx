@@ -3,19 +3,19 @@ import Amozen from "./Amozen";
 import Netflix from "./Netflix";
 import "./NetflixSeries.css";
 
-let Favorit = () => {
-  let series = "netflix";
-  if (series === "netflix") {
-    return <Netflix />;
-  } else {
-    return <Amozen />;
-  }
-};
+let series = "amazon";
+// let Favorit = () => {
+//   if (series === "netflix") {
+//     return <Netflix />;
+//   } else {
+//     return <Amozen />;
+//   }
+// };
 function NetflixSeries(props) {
   return (
     <>
       <div className="card-holder">
-        <Favorit />
+        {series === "netflix" ? <Netflix /> : <Amozen />}
       </div>
     </>
   );
