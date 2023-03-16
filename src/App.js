@@ -1,10 +1,10 @@
 import "./App.css";
-import SlotMAchine from "./component/SlotMachine";
+import Hooks2 from "./component/Hooks2";
 
 function App() {
   return (
     <>
-      <SlotMAchine />
+      <Hooks2 />
     </>
   );
 }
