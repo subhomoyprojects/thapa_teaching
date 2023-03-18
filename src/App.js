@@ -1,10 +1,10 @@
 import "./App.css";
-import Hooks2 from "./component/Hooks2";
+import Hooks3 from "./component/Hooks3";
 
 function App() {
   return (
     <>
-      <Hooks2 />
+      <Hooks3 />
     </>
   );
 }
