@@ -1,10 +1,10 @@
 import "./App.css";
-import Hooks3 from "./component/Hooks3";
+import Form from "./component/Form";
 
 function App() {
   return (
     <>
-      <Hooks3 />
+      <Form />
     </>
   );
 }
