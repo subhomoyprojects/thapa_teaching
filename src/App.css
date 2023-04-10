@@ -1,8 +1,11 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+body {
   background-color: #f2f2f2;
   padding: 0;
   margin: 0;
+}
+.card {
+  margin: 50px auto;
 }

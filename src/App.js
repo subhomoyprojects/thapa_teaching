@@ -1,10 +1,10 @@
 import "./App.css";
-import Form3 from "./component/Form3";
+import IncDic from "./component/IncDic";
 
 function App() {
   return (
     <>
-      <Form3 />
+      <IncDic />
     </>
   );
 }
