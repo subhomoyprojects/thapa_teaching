@@ -1,10 +1,10 @@
 import "./App.css";
-import IncDic from "./component/IncDic";
+import Accordine from "./component/accordine/Accordine";
 
 function App() {
   return (
     <>
-      <IncDic />
+      <Accordine />
     </>
   );
 }
