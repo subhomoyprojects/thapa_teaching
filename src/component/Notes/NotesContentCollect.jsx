@@ -20,6 +20,7 @@ function NotesContentCollect(props) {
   };
   const addContent = () => {
     props.passNote(content);
+    setContent({ title: "", description: "" });
   };
   return (
     <Card className="text-area">
