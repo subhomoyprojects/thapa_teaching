@@ -1,10 +1,10 @@
 import "./App.css";
-import Accordine from "./component/accordine/Accordine";
+import Notes from "./component/Notes";
 
 function App() {
   return (
     <>
-      <Accordine />
+      <Notes />
     </>
   );
 }
