@@ -1,10 +1,10 @@
 import "./App.css";
-import Notes from "././component/Notes1/Notes";
+import ComA from "./component/contextapi/ComA";
 
 function App() {
   return (
     <>
-      <Notes />
+      <ComA />
     </>
   );
 }
