@@ -33,3 +33,10 @@ body {
   padding: 7px 15px;
   margin-bottom: 15px;
 }
+.navbar .active {
+  color: cadetblue;
+}
+.navbar li a {
+  color: black;
+  text-decoration: none;
+}

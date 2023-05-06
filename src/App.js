@@ -3,6 +3,7 @@ import About from "./component/pages/About";
 import Contact from "./component/pages/Contact";
 import Blog from "./component/pages/Blog";
 import Service from "./component/pages/Service";
+import Error from "./component/pages/Error";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="blog" element={<Blog />} />
           <Route path="service" element={<Service />} />
+          <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
     </>
