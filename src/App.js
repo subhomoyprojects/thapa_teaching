@@ -1,10 +1,10 @@
 import "./App.css";
-import ComA from "./component/contextapi/ComA";
+import UseEffectHooks from "./component/useEffectHooks/UseEffectHooks";
 
 function App() {
   return (
     <>
-      <ComA />
+      <UseEffectHooks />
     </>
   );
 }
