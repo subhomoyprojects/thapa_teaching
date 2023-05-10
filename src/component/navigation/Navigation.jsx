@@ -14,7 +14,7 @@ function Navigation(props) {
         <NavLink to="/blog">Blog</NavLink>
       </li>
       <li>
-        <NavLink to="/service">Service</NavLink>
+        <NavLink to="/service/subhomoy/pal">Service</NavLink>
       </li>
     </ul>
   );
